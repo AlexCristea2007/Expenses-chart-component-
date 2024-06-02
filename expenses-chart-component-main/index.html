@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;
+                   font-size: 16px; font-weight: 400 }
+    .attribution a { color: hsl(228, 45%, 44%);}
+    .attribution a:hover { color: hsl(228, 45%, 64%);}
+    .attribution a:active { color: hsl(228, 45%, 74%);}
+  </style>
+</head>
+<body>
+
+  <div class="expenses-container">
+
+    <section class="total-balance-container">
+      <div class="left-section">
+        <h5>My balance</h5>
+        <h3 class="number">$921.48</h3>
+      </div>
+      <div class="right-section">
+        <div class="white-ball"></div>
+        <div class="brown-ball"></div>
+      </div>
+    </section>
+
+    <section class="charts-section">
+      <h3>Spending - Last 7 days</h3>
+      <div class="charts-list">
+        <div class="chart">
+          <div class="column" id="mon"></div>
+          <p class="day">mon</p>
+        </div>
+        <div class="chart">
+          <div class="column" id="tue"></div>
+          <p class="day">tue</p>
+        </div>
+        <div class="chart">
+          <div class="column" id="wen">
+            <p class="money-dropdown1">$52.36</p>
+          </div>
+          <p class="day">wen</p>
+        </div>
+        <div class="chart">
+          <div class="column" id="thu">
+            <p class="money-dropdown2">$31.07</p>
+          </div>
+          <p class="day">thu</p>
+        </div>
+        <div class="chart">
+          <div class="column" id="fri"></div>
+          <p class="day">fri</p>
+        </div>
+        <div class="chart">
+          <div class="column" id="sat"></div>
+          <p class="day">sat</p>
+        </div>
+        <div class="chart">
+          <div class="column" id="sun"></div>
+          <p class="day">sun</p>
+        </div>
+      </div>
+
+      <div class="line"></div>
+     
+    <div class="month-results">
+      <div class="left-section">
+        <h5>Total this month</h5>
+        <p class="number">$478.33</p>
+      </div>
+      <div class="right-section">
+        <h5>+2.4%</h5> 
+        <p>from last month</p> 
+      </div>
+    </div>
+   </section>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Cristea Adrian Alexandru</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
